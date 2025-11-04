@@ -1,0 +1,12 @@
+{
+    // Use the pylint that lives inside .venv
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.lintOnSave": true,
+
+    // Optional: make warnings appear as “info” instead of “warning”
+    // "python.linting.pylintArgs": ["--disable=C0111"],   // example to suppress a rule
+
+    // Ensure VS Code resolves imports relative to the workspace
+    "python.analysis.extraPaths": ["./"]
+}
